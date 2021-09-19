@@ -1,0 +1,182 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+/* Title  */
+
+h1, h2, h3 {
+  font-weight: bolder;
+}
+/* Sections */
+
+
+.colored-section{
+background-color: #ff4c68;
+}
+
+.white-section{
+background-color: #fff;
+}
+
+
+.big-heading {
+  color: white;
+  font-size: 3rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.tindog {
+  font-size: 2.5rem;
+  color: white;
+  font-family: "Ubuntu";
+  font-weight: bold;
+  margin-left: 0;
+}
+
+span {
+  color: #FCD2D1;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+span:hover {
+  color: white;
+}
+
+.iphone {
+  margin-top: 30px;
+}
+
+.iphone-img {
+  transform: rotate(30deg);
+  position: absolute;
+  right: 30%;
+  width: 60%;
+}
+
+.tindog:hover {
+  color: #FFF8E5;
+}
+
+.row {
+  padding-top: 30px;
+}
+
+.navbar {
+  padding-left: 0;
+}
+
+.Download-Button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Features */
+#features {
+  padding: 7% 15%;
+
+  position: relative;
+  z-index: 1;
+}
+
+.features-heads {
+  font-size: 1.5rem;
+}
+
+.features-icon {
+  padding-bottom: 2%;
+  color: #ef8172;
+}
+
+.features-icon:hover {
+  color: #ff4c66;
+}
+
+p {
+  color: #8f8f8f;
+  padding: 2% 8%;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonials-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonials-img {
+  border-radius: 50%;
+  width: 18%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 7% 15%;
+}
+
+.card {
+  margin: 10px;
+}
+
+.pricing-heads {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.dog-names {
+  font-size: 1.5rem;
+}
+
+/* Call to Action */
+
+.cta-div {
+  padding: 3% 15% 7%;
+}
+
+.cta-h3 {
+  font-size: 3.5rem;
+  color: #fff;
+  padding-top: 10%;
+}
+
+/* Footer */
+#footer {
+  padding-bottom: 50px;
+}
+
+.footer-icon {
+  margin: 100px 10px 5px;
+}
+
+/* Media Changing for mobile */
+@media (max-width: 1000px) {
+
+  /* it means that if the screen width is 1000px or lesser ,below styles would be applied */
+  .iphone-img {
+    transform: rotate(0);
+    position: static;
+  }
